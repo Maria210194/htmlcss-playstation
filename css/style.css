@@ -3,11 +3,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* utilities */
+/* utilities 
 
 [class*="col"] {
   border: 1px solid red;
-}
+} */
 
 .ms-min-h-80 {
   min-height: 80px;
@@ -44,4 +44,10 @@ body {
 
 .row-cards img {
   border-radius: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .none {
+    display: none;
+  }
 }
