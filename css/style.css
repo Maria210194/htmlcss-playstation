@@ -21,6 +21,10 @@ body {
   max-width: 100px;
 }
 
+.ms-max-h-200 {
+  max-width: 200px;
+}
+
 .w-100 {
   width: 100%;
 }
