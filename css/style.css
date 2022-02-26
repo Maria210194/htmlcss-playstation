@@ -13,6 +13,14 @@ body {
   background-color: #1f1f1f;
 }
 
+.ms-bg-beige{
+  background-color: #bebcbb;
+}
+
+.ms-bg-blue{
+  background-color: #161c3b;
+}
+
 .ms-min-h-80 {
   min-height: 80px;
 }
@@ -69,4 +77,16 @@ body {
 
 #ecco-play4 .container-fluid .row .card {
   border: 0;
+}
+
+@media screen and (max-width: 767px) {
+    #april img{
+      display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  #april-logo{
+    max-width: 300px;
+  }
 }
