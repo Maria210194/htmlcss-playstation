@@ -9,6 +9,10 @@ body {
   border: 1px solid red;
 } */
 
+.ms-bg-grey {
+  background-color: #1f1f1f;
+}
+
 .ms-min-h-80 {
   min-height: 80px;
 }
@@ -50,4 +54,19 @@ body {
   .none {
     display: none;
   }
+}
+
+#simil-jumbotron .container-fluid {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position-x: center;
+  min-height: 700px;
+}
+
+#nuove-uscite .container-fluid .row .card {
+  background-color: #1f1f1f;
+}
+
+#ecco-play4 .container-fluid .row .card {
+  border: 0;
 }
