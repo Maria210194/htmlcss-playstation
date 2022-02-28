@@ -43,6 +43,13 @@ body {
 
 /* content */
 
+@media screen and (max-width: 991px) {
+  #no-visib{
+    display: none;!
+  }
+
+}
+
 .lens{
   width: 20px;
 }
